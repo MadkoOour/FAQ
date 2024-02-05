@@ -53,14 +53,14 @@
     color: black;
 }
 
-.pannel{
+.panel{
     padding: 0 2rem 2.5rem;
     overflow:hidden; 
     background-color: #f1f7f5;
     display: none;       
 }
 
-.pannel p{
+.panel p{
     color: rgba(0, 0, 0, 0.8);
     font-size: 1.4rem;
     line-height: 1.5;

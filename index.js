@@ -2,12 +2,12 @@ $("button").click(function(){
     $(this).toggleClass("active");
     $(this).parent().toggleClass("active");
 
-    var pannel = $(this).siblings(".pannel");
-    if(pannel.css("display")==="block"){
-        pannel.css("display","none");
+    var panel = $(this).siblings(".panel");
+    if(panel.css("display")==="block"){
+        panel.css("display","none");
     }
     else{
-        pannel.css("display","block");
+        panel.css("display","block");
     }
 
     var icon = $(this).find("i");
